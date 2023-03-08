@@ -41,10 +41,9 @@
             // 
             // patched
             // 
-            this.patched.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.patched.AutoSize = true;
             this.patched.Font = new System.Drawing.Font("Microsoft PhagsPa", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.patched.Location = new System.Drawing.Point(120, 70);
+            this.patched.Location = new System.Drawing.Point(54, 23);
             this.patched.Name = "patched";
             this.patched.Size = new System.Drawing.Size(70, 21);
             this.patched.TabIndex = 0;
@@ -56,7 +55,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(309, 164);
+            this.ClientSize = new System.Drawing.Size(177, 71);
             this.Controls.Add(this.patched);
             this.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
@@ -66,7 +65,6 @@
             this.MinimizeBox = false;
             this.Name = "PatchWindow";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "PatchWindow";
             this.Load += new System.EventHandler(this.PatchWindow_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
